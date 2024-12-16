@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport", initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div class="formBox">
+            <div class="contaner">
+            
+                <form onsubmit="return data()" action="conformation.html">
+                    <label id="color">User name:</label><br>
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Enter user name" id="a1" name="username"><br><br>
+                    <label id="color">Contect number:</label><br>
+                    <i class="fa-solid fa-address-book"></i>
+                    <input type="number" placeholder="Enter your number" id="b1" name="cn"><br><br>
+                    <label id="color">Passward:</label><br>
+                    <i class="fa-solid fa-unlock"></i>
+                    <input type="password" placeholder="Enter your password" id="c1" name="pass"><br><br>
+                    <label id="color">Conform Passward:</label><br>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Enter Conform password" id="d1" name="cpass"><br><br>
+                    <input type="submit" value="Submit Your Form" id="button" name="butt">
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url("gride2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.formBox{
+    height: 500px;
+    width: 600px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.contaner{
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    font-size: 25px;
+    color: white;
+    box-shadow: 5px 10px 8px #888888;
+    padding: 10px;
+    border: none;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    /* transform: skew(8deg); */
+    backdrop-filter: blur(20px);
+}
+#color{
+    color: white;
+}
+#a1{
+    height: 30px;
+    width: 85%;
+    background-color: transparent;
+    border-radius: 50px;
+    font-size: large;
+    color: black;
+    padding-left: 5px;
+}
+#b1{
+    height: 30px;
+    width: 85%;
+    background-color: transparent;
+    border-radius: 50px;
+    font-size: large;
+    color: black;
+    padding-left: 5px;
+
+}
+#c1{
+    height: 30px;
+    width: 85%;
+    background-color: transparent;
+    /* border: none; */
+    border-radius: 50px;
+    font-size: large;
+    color: black;
+    padding-left: 5px;
+}
+#d1{
+    height: 30px;
+    width: 85%;
+    background-color: transparent;
+    /* border: none; */
+    border-radius: 50px;
+    font-size: large;
+    color: black;
+    padding-left: 5px;
+}
+#a1:hover{
+    background-color: rgb(179, 214, 214);
+    font-size: 20px;
+}
+#b1:hover{
+    background-color: rgb(179, 214, 214);
+    font-size: 20px;
+}
+#c1:hover{
+    background-color: rgb(179, 214, 214);
+    font-size: 20px;
+}
+#d1:hover{
+    background-color: rgb(179, 214, 214);
+    font-size: 20px;
+}
+#button{
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    box-shadow: 5px 10px 20px black inset;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#button:hover{
+    font-size: 20px;
+}
+.fa-solid{
+    color: black;
+    font-size: 20px;
+}
