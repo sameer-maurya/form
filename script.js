@@ -1,26 +1,26 @@
 function data (){
-    let a = document.querySelector("#a1").value;
-    let b = document.querySelector("#b1").value;
-    let c = document.querySelector("#c1").value;
-    let d = document.querySelector("#d1").value;
+    let userName = document.querySelector("#username").value;
+    let contactNo = document.querySelector("#contactNo").value;
+    let Password = document.querySelector("#pass").value;
+    let conformPass = document.querySelector("#conformPass").value;
 
-if(a == "" || b == "" || c == "" || d == ""){
+if(userName == "" || contactNo == "" || Password == "" || conformPass == ""){
     alert("All section should be mendetary!");
     return false;
 }
-else if(b.length<10||b.length>10){
+else if(contactNo.length < 10 || contactNo.length > 10){
     alert("Number shuld be 10 digit");
     return false;
 }
-else if(isNaN(b)){
+else if(isNaN(contactNo)){
     alert("Only number is allow in contect number");
     return false;
 }
-else if(c.length<4 || c.length>4){
+else if(Password.length < 4 || Password.length > 4){
     alert("Password should be only 4 digit");
     return false;
 }
-else if(c != d){
+else if(Password != conformPass){
     alert("Please enter same password");
     return false;
 }
