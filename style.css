@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +6,7 @@
 .main{
     height: 100vh;
     width: 100%;
-    background-image: url("gride2.jpg");
+    background-image: url("background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -14,6 +15,12 @@
     align-items: center;
     justify-content: center;
 
+}
+h4{
+    color: rgb(6, 93, 15);
+    text-align: center;
+    margin-bottom: 10px;
+    
 }
 .formBox{
     height: 500px;
@@ -25,7 +32,7 @@
     border: none;
 }
 .contaner{
-    height: 400px;
+    height: 450px;
     width: 300px;
     border: 1px solid black;
     font-size: 25px;
@@ -36,73 +43,33 @@
     border-top-right-radius: 40px;
     border-bottom-left-radius: 40px;
     /* transform: skew(8deg); */
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(50px);
 }
 #color{
-    color: white;
+    color: black;
+    font-size: 20px;
 }
-#a1{
+#username, #contactNo, #pass, #conformPass{
     height: 30px;
     width: 85%;
     background-color: transparent;
-    border-radius: 50px;
-    font-size: large;
+    /* border-radius: 50px; */
+    font-size: 20px;
     color: black;
     padding-left: 5px;
-}
-#b1{
-    height: 30px;
-    width: 85%;
-    background-color: transparent;
-    border-radius: 50px;
-    font-size: large;
-    color: black;
-    padding-left: 5px;
-
-}
-#c1{
-    height: 30px;
-    width: 85%;
-    background-color: transparent;
-    /* border: none; */
-    border-radius: 50px;
-    font-size: large;
-    color: black;
-    padding-left: 5px;
-}
-#d1{
-    height: 30px;
-    width: 85%;
-    background-color: transparent;
-    /* border: none; */
-    border-radius: 50px;
-    font-size: large;
-    color: black;
-    padding-left: 5px;
-}
-#a1:hover{
-    background-color: rgb(179, 214, 214);
-    font-size: 20px;
-}
-#b1:hover{
-    background-color: rgb(179, 214, 214);
-    font-size: 20px;
-}
-#c1:hover{
-    background-color: rgb(179, 214, 214);
-    font-size: 20px;
-}
-#d1:hover{
-    background-color: rgb(179, 214, 214);
-    font-size: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
 }
 #button{
+    width: 90px;
     color: white;
     font-size: 18px;
     background-color: transparent;
-    box-shadow: 5px 10px 20px black inset;
+    box-shadow: 5px 10px 20px rgb(12, 188, 29) inset;
     cursor: pointer;
     border-radius: 5px;
+    padding: 5px;
 }
 #button:hover{
     font-size: 20px;
